@@ -1,0 +1,143 @@
+section#services {
+  align-items: center;
+  background: var(--primary-color);
+  height: 140vh;
+}
+
+.services-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-left: 40px;
+  margin-top: 30px;
+  gap: 2.5rem;
+}
+
+.item-image {
+  width: 200px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 10px;
+  margin-left: 60px;
+  margin-top: 10px;
+}
+
+.item-name,
+.item-desc,
+.item-cta {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.service-item {
+  background-color: black;
+  border-radius: 10px;
+  height: 400px;
+  width: 330px;
+  transition: var(--transition);
+}
+
+.service-item:hover {
+  transform: scale(1.1);
+}
+
+.item-name {
+  color: var(--primary-color);
+  font-size: 30px;
+}
+
+.item-desc {
+  color: white;
+}
+
+.item-cta {
+  width: 200px;
+  color: white;
+  background: var(--secondary-color);
+  padding: 10px;
+  border-radius: 30px;
+  transition: var(--transition);
+  margin-left: 70px;
+}
+
+.item-cta > a {
+  color: white;
+}
+
+.item-cta:hover {
+  color: var(--primary-color);
+  background: black;
+  border: 1px solid var(--primary-color);
+}
+
+.page-topic {
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.features-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-left: 90px;
+  margin-top: 80px;
+  border-radius: 10px;
+}
+
+.feature-item {
+  background-color: black;
+  border-radius: 10px;
+  height: 500px;
+  width: 330px;
+  transition: var(--transition);
+}
+
+.feat-icon,
+.feat-desc,
+.feat-topic {
+  color: var(--primary-color);
+}
+
+.feat-icon {
+  background: white;
+  font-size: 40px;
+  text-align: center;
+  height: 100px;
+  border-radius: 0 0 100px 100px;
+  box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.feat-topic {
+  font-size: 20px;
+}
+
+.feat-desc {
+  margin-top: 50px;
+  font-size: 18px;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  section#services {
+    height: 320vh;
+  }
+  .services-container {
+    display: block;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 22px;
+  }
+
+  .service-item {
+    height: 300px;
+  }
+
+  .features-container {
+    display: block;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 22px;
+  }
+
+  .feature-item {
+    height: 400px;
+    margin-bottom: 10px;
+  }
+}

@@ -1,0 +1,18 @@
+.navbar-links-01{
+    margin-left: 100px;
+}
+
+.navbar-links-01 >a{
+    color: black;
+    margin-left: 10rem;
+    color: var(--primary-color);
+    text-decoration: none;
+    border-radius: 35px;
+    transition: var(--transition);
+    padding: 20px;
+}
+
+.navbar-links-01 >a:hover{
+    background: var(--primary-color);
+    color: black;
+}
