@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/bakkiego/static/css/main.f3c1223f.css",
+    "main.js": "/bakkiego/static/js/main.ddd697cb.js",
+    "static/media/movers.jpg": "/bakkiego/static/media/movers.e8085ebf44dfa110a9b1.jpg",
+    "static/media/driver.jpg": "/bakkiego/static/media/driver.96195b8074000c8b554a.jpg",
+    "static/media/bakkiedash.jpeg": "/bakkiego/static/media/bakkiedash.10273a35ad6c03d8b0b1.jpeg",
+    "static/media/AiImage.jpg": "/bakkiego/static/media/AiImage.e8afe984aa2466ecad36.jpg",
+    "static/media/logo.jpg": "/bakkiego/static/media/logo.feae35a2b3bca99dd73f.jpg",
+    "static/media/eight-ton.jpg": "/bakkiego/static/media/eight-ton.a36640756f8867dc5b55.jpg",
+    "static/media/five-hunnid.jpeg": "/bakkiego/static/media/five-hunnid.23b71a9c37cfea635fe4.jpeg",
+    "static/media/four-ton.jpeg": "/bakkiego/static/media/four-ton.5ccb91187f9ec39d7164.jpeg",
+    "static/media/get_app_img.png": "/bakkiego/static/media/get_app_img.1b0e055e8d70c89cfd6a.png",
+    "static/media/one-ton.jpg": "/bakkiego/static/media/one-ton.0adf37a33479f3be2757.jpg",
+    "index.html": "/bakkiego/index.html",
+    "main.f3c1223f.css.map": "/bakkiego/static/css/main.f3c1223f.css.map",
+    "main.ddd697cb.js.map": "/bakkiego/static/js/main.ddd697cb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f3c1223f.css",
+    "static/js/main.ddd697cb.js"
+  ]
+}
