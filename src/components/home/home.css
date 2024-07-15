@@ -1,0 +1,172 @@
+.container {
+  background: black;
+  color: white;
+  height: 80vh;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+  width: 50px;
+}
+
+.logo_img {
+  width: 50px;
+  height: auto;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-left: 2rem;
+  z-index: 1;
+  border: 1px solid var(--primary-color);
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.navbar-links > a:link {
+  padding: 20px;
+  margin-left: 30px;
+  color: var(--primary-color);
+  text-decoration: none;
+  border-radius: 35px;
+  transition: var(--transition);
+}
+
+.navbar-links > a:visited {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.navbar-links a:hover {
+  background: var(--primary-color);
+  color: black;
+}
+
+.mobile-nav-container {
+  display: none;
+}
+
+.mobile-navbar {
+  background: var(--primary-color);
+  width: 500px; 
+  height: 250px;
+  border-radius: 20px;
+  transition: var(--transition);
+}
+.mobile-navbar-links a {
+  display: block;
+  padding: 10px;
+  text-align: center;
+}
+
+.mobile-nav-buttons {
+  transform: translateX(90%);
+  font-size: 1.5rem;
+}
+
+.intro__panel {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 50px;
+  height: 70vh;
+}
+
+.right__panel {
+  margin-bottom: 15rem;
+  margin-left: 50px;
+}
+
+.cta {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 2.5rem;
+}
+
+.motto {
+  margin-top: 5rem;
+  margin-left: 60px;
+  font-size: 30px;
+  text-align: center;
+  padding: auto;
+  margin-bottom: 12px;
+  color: var(--primary-color);
+}
+
+.motto_text {
+  margin-left: 60px;
+  text-align: center;
+}
+
+.panel__img {
+  margin-bottom: 70px;
+  width: 40%; /* Adjust the width as needed */
+  height: auto;
+  margin-left: 10rem;
+  margin-right: 2rem;
+  border-radius: 20px;
+}
+
+@media (max-width: 600px) {
+  .container {
+    height: 70vh;
+  }
+  .mobile-nav-buttons {
+    transform: translateX(80%);
+    margin-top: -2rem;
+  }
+  .navbar {
+    display: none;
+  }
+
+  .mobile-nav-container {
+    display: block;
+  }
+
+  .mobile-navbar {
+    position: absolute;
+    margin-left: 60px;
+    width: 300px;
+  }
+
+  .motto,
+  .cta,
+  .motto_text {
+    margin: 0;
+    margin-left: -40px;
+    margin-bottom: 20px;
+  }
+
+  .motto {
+    font-size: 20px;
+  }
+
+  .motto_text {
+    text-align: left;
+    font-size: 10px;
+  }
+
+  .cta {
+    margin-top: 10px;
+    padding: 5px;
+  }
+
+  .panel__img {
+    display: none;
+  }
+}
+
+@media (max-width: 1200px) {
+  .container {
+    height: 60vh;
+  }
+  .navbar {
+    margin-left: -120px;
+  }
+}
