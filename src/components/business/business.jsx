@@ -6,6 +6,9 @@ import Verification from "../verification/Verification"
 import Logo from "../../assets/logo.jpg";
 import aiImage from "../../assets/AiImage.jpg"
 import './business.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faMapPin } from '@fortawesome/free-solid-svg-icons/faMapPin'
+import { faRoute } from '@fortawesome/free-solid-svg-icons'
 
 
 const business = () => {
@@ -23,20 +26,23 @@ const business = () => {
         <Link smooth to="/#about" >about</Link>
       </div>
       </nav>
-
-      <div>
-        <img src={aiImage} alt="join bakkiego" className=""  />
+    <div id="pagebanner">
+      <div id='imgbanner'>
+        <img src={aiImage} alt="join bakkiego" id='driver_img'  />
       </div>
-
-      <div>
-        <h3>Opportunities Everywhere</h3>
-        <h5>Make the most of your time on the road with a platform of customers looking for your services.</h5>
+       
+      <div id="textbanner"> 
+        <FontAwesomeIcon icon={faMapPin} id='location_pin'/>
+        <h3 id='home_text'>Opportunities Everywhere</h3>
+        <h5 id='desc_text'>Make the most of your time on the road with a platform of customers looking for your services.</h5>
+      <div id="cta-01">
+            <a href="#verification" download className="cta_01_btn">
+              Drive
+            </a> 
       </div>
-
-      <div className="cta-01">
-            <a href="#verification" download className="btn">
-              sign up to drive
-            </a>
+      <FontAwesomeIcon icon={faRoute} id='route_icon'/>
+      </div>
+       
       </div>
     </section>
   )

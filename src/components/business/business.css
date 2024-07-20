@@ -1,3 +1,7 @@
+body{
+    /* background-color: black; */
+}
+
 .navbar-links-01{
     margin-left: 100px;
 }
@@ -15,4 +19,73 @@
 .navbar-links-01 >a:hover{
     background: var(--primary-color);
     color: black;
+}
+
+#pagebanner{
+    padding: 20px;
+}
+
+#imgbanner{
+    width: 40%;
+    float: left;
+    padding: 20px;
+    /* border: 2px solid red; */
+}
+
+#textbanner{
+    margin-top: 30px;
+    width: 60%;
+    float: right;
+    padding: 20px;
+    background-color: var(--primary-color);
+    border-radius: 30px;
+    /* border: 2px solid red; */
+}
+
+#home_text{
+    font-size: 50px;
+}
+
+#desc_text{
+    font-size: 20px;
+}
+
+#driver_img{
+    width: 80%;
+    margin-left: 60px;
+    border-radius: 10px;
+}
+
+#location_pin{
+    font-size: 100px;
+    color: black;
+}
+
+#route_icon{
+    margin-left: 40rem;
+    font-size: 100px;
+    color: black;
+}
+
+#cta-01{
+    margin-left: 20rem;
+    margin-top: 20px;
+}
+
+.cta_01_btn{
+  width: max-content;
+  display: inline-block;
+  background: var(--secondary-color);
+  color: white;
+  padding: 0.75rem 1.2rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  border: 1px solid var(--primary-color);
+  transition: var(--transition);
+}
+
+.cta_01_btn:hover{
+    border: 1px solid var(--primary-color);
+    background: black;
+    color: var(--primary-color);
 }
