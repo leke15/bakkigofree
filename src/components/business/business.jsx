@@ -3,6 +3,7 @@ import { HashLink as Link } from 'react-router-hash-link'
 import Drive from "../drive/Drive"
 import Earnings from "../earnings/Earnings"
 import Verification from "../verification/Verification"
+import BakkiegoPlus from '../bakkie+/BakkiegoPlus'
 import Logo from "../../assets/logo.jpg";
 import aiImage from "../../assets/AiImage.jpg"
 import './business.css'
@@ -13,7 +14,7 @@ import { faRoute } from '@fortawesome/free-solid-svg-icons'
 
 const business = () => {
   return (
-    <section>
+    <section id='business-container'>
       <div className='header'>
       <img src={Logo} alt="Bakkiego" className="logo_img" />
       </div>
@@ -36,15 +37,17 @@ const business = () => {
         <h3 id='home_text'>Opportunities Everywhere</h3>
         <h5 id='desc_text'>Make the most of your time on the road with a platform of customers looking for your services.</h5>
       <div id="cta-01">
-            <a href="#verification" download className="cta_01_btn">
+            <a href="#verification" download id="cta_01_btn">
               Drive
             </a> 
       </div>
       <FontAwesomeIcon icon={faRoute} id='route_icon'/>
       </div>
-       
       </div>
+      <BakkiegoPlus/>
     </section>
+
+    
   )
 }
 

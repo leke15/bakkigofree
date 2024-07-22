@@ -1,15 +1,12 @@
-body{
-    /* background-color: black; */
-}
-
 .navbar-links-01{
     margin-left: 100px;
+    margin-top: -20px;
 }
 
 .navbar-links-01 >a{
     color: black;
     margin-left: 10rem;
-    color: var(--primary-color);
+    color: black;
     text-decoration: none;
     border-radius: 35px;
     transition: var(--transition);
@@ -17,8 +14,8 @@ body{
 }
 
 .navbar-links-01 >a:hover{
-    background: var(--primary-color);
-    color: black;
+    background: black;
+    color: var(--primary-color);
 }
 
 #pagebanner{
@@ -37,17 +34,19 @@ body{
     width: 60%;
     float: right;
     padding: 20px;
-    background-color: var(--primary-color);
+    background-color: black;
     border-radius: 30px;
     /* border: 2px solid red; */
 }
 
 #home_text{
     font-size: 50px;
+    color: var(--primary-color);
 }
 
 #desc_text{
     font-size: 20px;
+    color: var(--primary-color);
 }
 
 #driver_img{
@@ -58,13 +57,13 @@ body{
 
 #location_pin{
     font-size: 100px;
-    color: black;
+    color: var(--primary-color);
 }
 
 #route_icon{
     margin-left: 40rem;
     font-size: 100px;
-    color: black;
+    color: var(--primary-color);
 }
 
 #cta-01{
@@ -72,7 +71,7 @@ body{
     margin-top: 20px;
 }
 
-.cta_01_btn{
+#cta_01_btn{
   width: max-content;
   display: inline-block;
   background: var(--secondary-color);
@@ -84,7 +83,7 @@ body{
   transition: var(--transition);
 }
 
-.cta_01_btn:hover{
+#cta_01_btn:hover{
     border: 1px solid var(--primary-color);
     background: black;
     color: var(--primary-color);
