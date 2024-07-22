@@ -1,0 +1,31 @@
+body{
+    background-color: var(--primary-color);
+}
+
+.overlay{
+    position: absolute;
+    top: 43rem;
+    left: 25rem;
+    width: 50%;
+    height: 50%; /* Semi-transparent black background */
+    color: var(--primary-color);
+    font-size: 18px;
+    text-align: center;
+}
+
+
+#img{
+    margin-left: 10rem;
+    width: 80%;
+    height: 400px;
+    filter: brightness(50%);
+    border-radius: 10px;
+}
+
+#partner-heading{
+    font-size: 50px;
+}
+
+#partner-desc{
+    font-size: 25px;
+}
