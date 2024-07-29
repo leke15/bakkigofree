@@ -1,0 +1,41 @@
+#partner{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#partner_backdrop{
+    margin-left: 45px;
+}
+
+#partner_img{
+    width: 1500px;
+    height: 400px;
+}
+
+#partner_title{
+    position: absolute;
+    bottom: -92rem;
+    margin-left: 35rem;
+}
+
+#partner_text{
+    font-size: 40px;
+    color: white;
+}
+
+#partner_perk{
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+#partner_checkmark{
+    color: white;
+    margin-right: 10px;
+}
+
+#partner_benefits{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 30px;
+    gap: 2rem;
+}
