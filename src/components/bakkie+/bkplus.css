@@ -7,7 +7,7 @@ body{
     top: 43rem;
     left: 25rem;
     width: 50%;
-    height: 50%; /* Semi-transparent black background */
+    height: 200px; /* Semi-transparent black background */
     color: var(--primary-color);
     font-size: 18px;
     text-align: center;
