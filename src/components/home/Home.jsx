@@ -43,11 +43,11 @@ const Home = () => {
         {isOpen && (
           <nav className="mobile-navbar">
             <div className="mobile-navbar-links">
-              <a href="/">Home</a>
-              <a href="#about">About</a>
-              <a href="#services">Services</a>
-              <a href="#business">Business</a>
-              <a href="#contact">Contact</a>
+            <Link smooth to="/#services">Services</Link>
+          <Link to="/business">Business</Link> 
+          <Link smooth to="/#about">About</Link>
+          <Link smooth to="/#home">Home</Link>
+          <Link smooth to="/#contact">Contact</Link>
             </div>
           </nav>
         )}
@@ -67,9 +67,9 @@ const Home = () => {
             <a href="#download" download className="btn">
               Get Bakkie Now
             </a>
-            <a href="#business" className="btn btn-primary">
+            <Link to="/business" className="btn btn-primary">
               Earn Money
-            </a>
+            </Link>
           </div>
         </div>
         <img src={Movers} alt="Movers" className="panel__img" />
