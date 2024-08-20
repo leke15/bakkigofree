@@ -5,10 +5,16 @@ import Service from "../../components/services/Service";
 import DownloadApp from "../../components/downloadApp/DownloadApp";
 import Contact from "../../components/contact/Contact";
 import Footer from "../../components/footer/Footer";
+import ServiceLanding from "../services/ServiceLanding";
 import Logo from "../../assets/logo.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
+import {
+  faAnglesDown,
+  faBars,
+  faXmark,
+} from "@fortawesome/free-solid-svg-icons";
 import "./home.css";
+import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -26,21 +32,28 @@ const Home = () => {
           {/*navigation links */}
           <div className="navbar-links navbar-links2">
             {/* Use HashLink for smooth scroll */}
+            <Link smooth to="/#home">
+              Home
+            </Link>
+            <Link smooth to="/#about">
+              About
+            </Link>
             <Link smooth to="/#services">
               Services
             </Link>
             <Link to="/business">Business</Link>
-            <Link smooth to="/#about">
-              About
-            </Link>
-            <Link smooth to="/#home">
-              Home
-            </Link>
             <Link smooth to="/#contact">
               Contact
             </Link>
-            <Link id="download-cta" href="https://play.google.com/store/apps/details?id=com.bakkiego.customer&pcampaignid=web_share">
-            Download the app
+            <Link id="whatsapp-cta" smooth to="https://wa.me/27696680474">
+              <FontAwesomeIcon icon={faWhatsapp} id="whatsapp-icon" />
+              +27 696680474
+            </Link>
+            <Link
+              id="download-cta"
+              href="https://play.google.com/store/apps/details?id=com.bakkiego.customer&pcampaignid=web_share"
+            >
+              Download the app
             </Link>
           </div>
         </nav>
@@ -74,12 +87,13 @@ const Home = () => {
       <div className="landing-container">
         <div>
           <h2 className="motto">
-            Innovative <br/> Technologies <br/> Involving the <br/>Community
+            Innovative <br /> Technologies <br /> Involving the <br />
+            Community
           </h2>
+          <FontAwesomeIcon icon={faAnglesDown} id="scroll-down" />
         </div>
       </div>
-      <About />
-      <Service />
+      <ServiceLanding />
       <DownloadApp />
       <Contact />
       <Footer />
