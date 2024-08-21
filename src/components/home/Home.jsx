@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { HashLink as Link } from "react-router-hash-link";
 import About from "../../components/about/About";
 import Service from "../../components/services/Service";
+import Features from "../services/Features";
 import DownloadApp from "../../components/downloadApp/DownloadApp";
 import Contact from "../../components/contact/Contact";
 import Footer from "../../components/footer/Footer";
@@ -94,6 +95,7 @@ const Home = () => {
         </div>
       </div>
       <ServiceLanding />
+      <Features />
       <DownloadApp />
       <Contact />
       <Footer />
