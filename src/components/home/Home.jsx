@@ -41,7 +41,6 @@ const Home = () => {
             <Link smooth to="/Service">
               Services
             </Link>
-            <Link to="/#business">Business</Link>
             <Link smooth to="/#contact">
               Contact
             </Link>
