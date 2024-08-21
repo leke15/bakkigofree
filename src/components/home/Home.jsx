@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { HashLink as Link } from "react-router-hash-link";
 import About from "../../components/about/About";
-import Service from "../../components/services/Service";
 import Features from "../services/Features";
 import DownloadApp from "../../components/downloadApp/DownloadApp";
 import Contact from "../../components/contact/Contact";
@@ -39,10 +38,10 @@ const Home = () => {
             <Link smooth to="/#about">
               About
             </Link>
-            <Link smooth to="/#services">
+            <Link smooth to="/Service">
               Services
             </Link>
-            <Link to="/business">Business</Link>
+            <Link to="/#business">Business</Link>
             <Link smooth to="/#contact">
               Contact
             </Link>
@@ -52,7 +51,7 @@ const Home = () => {
             </Link>
             <Link
               id="download-cta"
-              href="https://play.google.com/store/apps/details?id=com.bakkiego.customer&pcampaignid=web_share"
+              smooth to="https://play.google.com/store/apps/details?id=com.bakkiego.customer&pcampaignid=web_share"
             >
               Download the app
             </Link>
@@ -88,8 +87,8 @@ const Home = () => {
       <div className="landing-container">
         <div>
           <h2 className="motto">
-            Innovative <br /> Technologies <br /> Involving the <br />
-            Community
+            Move Your  <br />Goods <br /> Anywhere  <br />
+            AnyTime
           </h2>
           <FontAwesomeIcon icon={faAnglesDown} id="scroll-down" />
         </div>

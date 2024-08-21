@@ -1,16 +1,10 @@
 import React from "react";
+import { HashLink as Link } from "react-router-hash-link";
 import Smart1 from "../../assets/five-hunnid.jpeg";
 import Smart2 from "../../assets/one-ton.jpg";
 import Leggo from "../../assets/four-ton.jpeg";
 import Combo from "../../assets/eight-ton.jpg";
 import "./service.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faShieldHalved,
-  faStopwatch20,
-  faGaugeHigh,
-} from "@fortawesome/free-solid-svg-icons";
-
 const Service = () => {
   return (
     <section id="services" className="service-body">
