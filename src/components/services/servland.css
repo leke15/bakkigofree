@@ -74,3 +74,7 @@ h3 {
     position: relative;
     z-index: 1;
 }
+
+.service-btn>a {
+    color: black;
+}
