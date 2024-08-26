@@ -2,7 +2,7 @@ section#cta {
   background: var(--primary-color);
 }
 
-.background {
+.download-background {
   z-index: 1;
   margin-left: 80px;
 }

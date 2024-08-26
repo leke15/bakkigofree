@@ -6,7 +6,7 @@ const DownloadApp = () => {
   return (
     <section id="cta">
       {/* Image background */}
-      <div className="background">
+      <div className="download-background">
         <img src={driver} alt="bakkie driver" className="background-img" />
       </div>
       {/* Call to action texts and button as well as the image preview of the app */}
