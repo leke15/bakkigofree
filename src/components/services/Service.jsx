@@ -1,5 +1,6 @@
 import React from "react";
 import { HashLink as Link } from "react-router-hash-link";
+import logo from "../../assets/logo.jpg"
 import Smart1 from "../../assets/five-hunnid.jpeg";
 import Smart2 from "../../assets/one-ton.jpg";
 import Leggo from "../../assets/four-ton.jpeg";
@@ -8,6 +9,16 @@ import "./service.css";
 const Service = () => {
   return (
     <section id="services" className="service-body">
+
+    <div className="service-banner">
+      <div className="service-banner-text">You're one click away from effortless moving solution</div>
+      <div className="service-graphic">
+        <img src={logo} alt="Bakkiego"/>
+        <button className="download-btn">Download Bakkiego</button>
+        </div>
+        
+    </div>
+
       <h2 className="page-topic">Services</h2>
       {/* Services container */}
 
@@ -18,7 +29,7 @@ const Service = () => {
             <img src={Smart1} alt="" />
           </div>
           <h3 className="item-name">Smart 1</h3>
-          <h4 className="item-desc">Trucks weighing from 500kg to 1 tons</h4>
+          <p className="item-desc">Trucks weighing from 500kg to 1 tons. Best for household goods and deliveries</p>
           <div className="item-cta">
             <a href="https://play.google.com/store/apps/details?id=com.bakkiego.customer&pcampaignid=web_share">Order Now</a>
           </div>
@@ -29,7 +40,7 @@ const Service = () => {
             <img src={Smart2} alt="" />
           </div>
           <h3 className="item-name">Smart 2</h3>
-          <h4 className="item-desc">Trucks weighing from 1tons to 2 tons</h4>
+          <h4 className="item-desc">Trucks weighing from 1tons to 2 tons. Best for furnitures, and other Meduim weighted items</h4>
           <div className="item-cta">
             <a href="https://play.google.com/store/apps/details?id=com.bakkiego.customer&pcampaignid=web_share">Order Now</a>
           </div>
@@ -40,7 +51,7 @@ const Service = () => {
             <img src={Leggo} alt="" />
           </div>
           <h3 className="item-name">Leggo</h3>
-          <h4 className="item-desc">Trucks weighing from 2tons to 4tons</h4>
+          <h4 className="item-desc">Trucks weighing from 2tons to 4tons. Can carry industrial tools and heavy weighted goods </h4>
           <div className="item-cta">
             <a href="https://play.google.com/store/apps/details?id=com.bakkiego.customer&pcampaignid=web_share">Order Now</a>
           </div>
@@ -51,7 +62,7 @@ const Service = () => {
             <img src={Combo} alt="" />
           </div>
           <h3 className="item-name">Combo</h3>
-          <h4 className="item-desc">Trucks weighing from 4tons to 8tons</h4>
+          <h4 className="item-desc">Trucks weighing from 4tons to 8tons.</h4>
           <div className="item-cta">
             <a href="https://play.google.com/store/apps/details?id=com.bakkiego.customer&pcampaignid=web_share">Order Now</a>
           </div>

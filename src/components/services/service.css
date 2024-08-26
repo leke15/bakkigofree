@@ -4,6 +4,43 @@ section#services {
   height: 140vh;
 }
 
+.service-banner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000000;
+  padding: 20px;
+}
+
+.service-banner-text{
+  color: #FFFFFF;
+  font-size: 40px;
+  max-width: 50%;
+}
+
+.service-graphic img{
+  max-width: 20%;
+  height: 200px;
+  margin-left: 50rem;
+}
+
+.download-btn{
+  background-color: transparent;
+  border: 2px solid var(--primary-color);
+  color: var(--primary-color);
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-left: 50rem;
+}
+
+.download-btn:hover{
+  background-color: var(--primary-color);
+  color: #000000;
+}
+
+
 .services-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -46,6 +83,7 @@ section#services {
 }
 
 .item-desc {
+  margin-top: 50px;
   color: white;
 }
 
