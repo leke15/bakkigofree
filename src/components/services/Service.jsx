@@ -5,16 +5,17 @@ import Smart1 from "../../assets/five-hunnid.jpeg";
 import Smart2 from "../../assets/one-ton.jpg";
 import Leggo from "../../assets/four-ton.jpeg";
 import Combo from "../../assets/eight-ton.jpg";
+import Navbar from "../home/Navbar";
 import "./service.css";
 const Service = () => {
   return (
-    <section id="services" className="service-body">
-
+    <section>
+    <Navbar />
+    <div className="service-body">
     <div className="service-banner">
       <div className="service-banner-text">You're one click away from effortless moving solution</div>
       <div className="service-graphic">
         <img src={logo} alt="Bakkiego"/>
-        <button className="download-btn">Download Bakkiego</button>
         </div>
         
     </div>
@@ -67,6 +68,7 @@ const Service = () => {
             <a href="https://play.google.com/store/apps/details?id=com.bakkiego.customer&pcampaignid=web_share">Order Now</a>
           </div>
         </article>
+      </div>
       </div>
     </section>
   );
