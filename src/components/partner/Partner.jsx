@@ -1,11 +1,10 @@
-import React from 'react'
-import handshake from "../../assets/handshake.jpg"
-import "./partner.css"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCircleCheck } from '@fortawesome/free-solid-svg-icons'
+import React from "react";
+import handshake from "../../assets/handshake.jpg";
+import "./partner.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCircleCheck } from "@fortawesome/free-solid-svg-icons";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
-
 
 const Drive = () => {
   const form = useRef();
@@ -26,29 +25,47 @@ const Drive = () => {
       );
   };
   return (
-    <section id='partner'>
-      <div id="partner_backdrop">
-        <img src={handshake} alt="handshaking" id='partner_img'/>
-
-        <div id='partner_title'>
-          <h3 id='partner_text'> <b> Become A Partner</b></h3>
-        </div>
+    <section id="partner">
+      <div className="partner_title">
+        <h3>
+           Become A Partner
+        </h3>
       </div>
 
-      <div id="partner_benefits">
-        <div><h4 id='partner_text'>What’s in it for your Business: </h4>
-        
-        <div id="partner_perk">
-        <FontAwesomeIcon icon={faCircleCheck} id='partner_checkmark'/> Custom Made discounts 
-        </div>
+      <div className="partner_benefits">
+        <div>
+          <h4 className="partner_text">What’s in it for your Business: </h4>
 
-        <div id="partner_perk">
-        <FontAwesomeIcon icon={faCircleCheck} id='partner_checkmark'/> 24/7 Customer Support 
-        </div>
+          <div className="partner_perk">
+            <p className="perk-desc">
+              <FontAwesomeIcon
+                icon={faCircleCheck}
+                className="partner_checkmark"
+              />
+              Custom Made discounts
+            </p>
+          </div>
 
-        <div id="partner_perk">
-        <FontAwesomeIcon icon={faCircleCheck} id='partner_checkmark'/> Prioritized with top-rated drivers 
-        </div></div>
+          <div className="partner_perk">
+            <p className="perk-desc">
+              <FontAwesomeIcon
+                icon={faCircleCheck}
+                className="partner_checkmark"
+              />{" "}
+              24/7 Customer Support
+            </p>
+          </div>
+
+          <div className="partner_perk">
+            <p className="perk-desc">
+              <FontAwesomeIcon
+                icon={faCircleCheck}
+                className="partner_checkmark"
+              />
+              Prioritized with top-rated drivers
+            </p>
+          </div>
+        </div>
 
         <form ref={form} onSubmit={sendEmail}>
           <input
@@ -56,26 +73,29 @@ const Drive = () => {
             name="name"
             placeholder="Your FullName..."
             required
+            className="info-field"
           />
           <input
             type="email"
             name="email"
             placeholder="Your Email..."
             required
+            className="info-field"
           />
           <textarea
             name="message"
             rows="7"
             placeholder="Partner up?..."
             required
+            className="info-field"
           ></textarea>
-          <button type="submit" className="contact-btn" >
+          <button type="submit" className="contact-btn">
             Send Message
           </button>
         </form>
       </div>
-    </section >
-  )
-}
+    </section>
+  );
+};
 
-export default Drive
+export default Drive;
