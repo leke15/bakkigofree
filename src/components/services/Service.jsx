@@ -6,6 +6,8 @@ import Smart2 from "../../assets/one-ton.jpg";
 import Leggo from "../../assets/four-ton.jpeg";
 import Combo from "../../assets/eight-ton.jpg";
 import Navbar from "../home/Navbar";
+import Guide from "./Guide";
+import Footer from "../footer/Footer"
 import "./service.css";
 const Service = () => {
   return (
@@ -70,6 +72,8 @@ const Service = () => {
         </article>
       </div>
       </div>
+      <Guide />
+      <Footer />
     </section>
   );
 };
