@@ -14,7 +14,7 @@ body{
 }
 
 
-#img{
+.bkplus-graphic{
     margin-left: 10rem;
     width: 80%;
     height: 400px;
@@ -22,10 +22,12 @@ body{
     border-radius: 10px;
 }
 
-#partner-heading{
+.partner-heading{
+    margin-top: 5rem;
     font-size: 50px;
 }
 
-#partner-desc{
+.partner-desc{
     font-size: 25px;
+    margin-bottom: 10px;
 }
