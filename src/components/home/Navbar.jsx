@@ -1,12 +1,10 @@
 import React, { useState } from "react";
-import { faWhatsapp} from "@fortawesome/free-brands-svg-icons";
+import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { HashLink as Link } from "react-router-hash-link";
-import About from "../../components/about/About";
 import Logo from "../../assets/logo.jpg";
 import "./navbar.css";
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
-
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -25,15 +23,15 @@ function Navbar() {
           <Link smooth to="/#home">
             Home
           </Link>
-          <Link smooth to="#about">
+          <a href="#about">
             About
-          </Link>
+          </a>
           <Link smooth to="/Service">
             Services
           </Link>
-          <Link smooth to="/#contact">
+          <a href="#contact">
             Contact
-          </Link>
+          </a>
           <Link id="whatsapp-cta" smooth to="https://wa.me/27696680474">
             <FontAwesomeIcon icon={faWhatsapp} id="whatsapp-icon" />
             +27 696680474
