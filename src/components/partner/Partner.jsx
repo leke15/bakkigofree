@@ -1,5 +1,4 @@
 import React from "react";
-import handshake from "../../assets/handshake.jpg";
 import "./partner.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleCheck } from "@fortawesome/free-solid-svg-icons";

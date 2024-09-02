@@ -1,5 +1,4 @@
 import React from "react";
-import { HashLink as Link } from "react-router-hash-link";
 import logo from "../../assets/logo.jpg"
 import Smart1 from "../../assets/five-hunnid.jpeg";
 import Smart2 from "../../assets/one-ton.jpg";
