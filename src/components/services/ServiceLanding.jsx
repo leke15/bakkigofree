@@ -15,7 +15,7 @@ function ServiceLanding() {
             </div>
             <div className='service-container service2'>
             <FontAwesomeIcon icon={faPeopleGroup} className='service-icon'/> <br/>
-            <button className='btn service-btn'>Join our Team</button>
+            <button className='btn service-btn'> <Link smooth to ="/Business">Join our Team</Link></button>
             </div>
         </div>
     </section>
