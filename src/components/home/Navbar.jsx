@@ -23,13 +23,13 @@ function Navbar() {
           <Link smooth to="/#home">
             Home
           </Link>
-          <a href="#about">
+          <Link smooth to="/About">
             About
-          </a>
+          </Link>
           <Link smooth to="/Service">
             Services
           </Link>
-          <a href="#contact">
+          <a href="/#contact">
             Contact
           </a>
           <Link id="whatsapp-cta" smooth to="https://wa.me/27696680474">
