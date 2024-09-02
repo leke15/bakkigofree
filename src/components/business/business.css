@@ -1,90 +1,70 @@
-.navbar-links-01{
-    margin-left: 100px;
-    margin-top: -20px;
-}
-
-.navbar-links-01 >a{
-    color: black;
-    margin-left: 10rem;
-    color: black;
-    text-decoration: none;
-    border-radius: 35px;
-    transition: var(--transition);
+.pagebanner {
+    display: flex;
+    flex-wrap: wrap;
     padding: 20px;
-}
-
-.navbar-links-01 >a:hover{
-    background: black;
-    color: var(--primary-color);
-}
-
-#pagebanner{
+  }
+  
+  .imgbanner, .textbanner {
+    flex: 1;
     padding: 20px;
-}
+  }
+  
+  .imgbanner > img {
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+  }
 
-#imgbanner{
-    width: 40%;
-    float: left;
-    padding: 20px;
-    /* border: 2px solid red; */
-}
-
-#textbanner{
+  .textbanner {
     margin-top: 30px;
-    width: 60%;
-    float: right;
+    width: 50%;
+    height: 30rem;
     padding: 20px;
     background-color: black;
     border-radius: 30px;
-    /* border: 2px solid red; */
-}
-
-#home_text{
-    font-size: 50px;
+  }
+  
+  .home_text {
+    font-size: 2.5rem;
     color: var(--primary-color);
-}
-
-#desc_text{
-    font-size: 20px;
+    margin-top: 10px;
+  }
+  
+  .desc_text {
+    font-size: 1.25rem;
+    margin-top: 5rem;
     color: var(--primary-color);
-}
-
-#driver_img{
-    width: 80%;
-    margin-left: 60px;
-    border-radius: 10px;
-}
-
-#location_pin{
-    font-size: 100px;
+  }
+  
+  #location_pin, #route_icon {
+    font-size: 4rem;
+    margin-top: 2rem;
     color: var(--primary-color);
-}
-
-#route_icon{
+  }
+  
+  #route_icon{
     margin-left: 40rem;
-    font-size: 100px;
-    color: var(--primary-color);
-}
+  }
 
-#cta-01{
+  .cta-01 {
     margin-left: 20rem;
-    margin-top: 20px;
-}
-
-#cta_01_btn{
-  width: max-content;
-  display: inline-block;
-  background: var(--secondary-color);
-  color: white;
-  padding: 0.75rem 1.2rem;
-  border-radius: 0.4rem;
-  cursor: pointer;
-  border: 1px solid var(--primary-color);
-  transition: var(--transition);
-}
-
-#cta_01_btn:hover{
+    margin-top: 2rem;
+  }
+  
+  .cta_01_btn {
+    width: max-content;
+    display: inline-block;
+    background: var(--secondary-color);
+    color: white;
+    padding: 0.75rem 1.2rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: 1px solid var(--primary-color);
+    transition: var(--transition);
+  }
+  
+  .cta_01_btn:hover {
     border: 1px solid var(--primary-color);
     background: black;
     color: var(--primary-color);
-}
+  }
