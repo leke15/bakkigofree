@@ -5,9 +5,9 @@ import "./download.css";
 const DownloadApp = () => {
   return (
     <section id="cta">
-      {/* Image background */}
+      {/* graphic background */}
       <div className="download-background">
-        <img src={driver} alt="bakkie driver" className="background-img" />
+        <img src={driver} alt="bakkie driver" className="background-graphic" />
       </div>
       {/* Call to action texts and button as well as the image preview of the app */}
       <div className="cta-panel">
@@ -29,7 +29,7 @@ const DownloadApp = () => {
 
           {/* App image preview */}
           <div className="hand">
-            <img src={hand} alt="App preview image" className="hand-img" />
+            <img src={hand} alt="App preview" className="hand-img" />
           </div>
         </div>
       </div>
