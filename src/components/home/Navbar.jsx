@@ -25,7 +25,7 @@ function Navbar() {
           <Link smooth to="/#home">
             Home
           </Link>
-          <Link smooth to="/#about">
+          <Link smooth to="#about">
             About
           </Link>
           <Link smooth to="/Service">
