@@ -53,19 +53,18 @@ function Navbar() {
         {isOpen && (
           <nav className="mobile-navbar">
             <div className="mobile-navbar-links">
-              <Link smooth to="/#services">
-                Services
-              </Link>
-              <Link to="/business">Business</Link>
-              <Link smooth to="/#about">
-                About
-              </Link>
-              <Link smooth to="/#home">
-                Home
-              </Link>
-              <Link smooth to="/#contact">
-                Contact
-              </Link>
+            <Link smooth to="/#home">
+            Home
+          </Link>
+          <Link smooth to="/About">
+            About
+          </Link>
+          <Link smooth to="/Service">
+            Services
+          </Link>
+          <a href="/#contact">
+            Contact
+          </a>
             </div>
           </nav>
         )}

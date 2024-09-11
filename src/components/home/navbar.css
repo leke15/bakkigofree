@@ -78,8 +78,8 @@
 
   @media (max-width: 600px) {
     .mobile-nav-buttons {
-        transform: translateX(80%);
-        margin-top: -2rem;
+        margin-left: 12rem;
+        font-size: 40px;
       }
       .navbar {
         display: none;
@@ -91,8 +91,9 @@
     
       .mobile-navbar {
         position: absolute;
-        margin-left: 60px;
-        width: 300px;
+        margin-left: 90px;
+        width: 200px;
+        height: 200px;
       }
   }
   @media (max-width: 1200px) {
