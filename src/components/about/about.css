@@ -13,8 +13,12 @@ section#about {
   font-size: 50px;
 }
 
+.about-desc{
+  padding: 20px;
+}
+
 .team-heading{
-  margin-top: 15rem;
+  margin-top: 25rem;
   font-size: 30px;
   font-weight: 500;
 }
@@ -36,6 +40,14 @@ section#about {
   margin-top: 3rem;
   width: 150px;
   border-radius: 100px;
+}
+
+.team-img2 {
+  margin-top: 3rem;
+  margin-left: 10rem;
+  width: 160px;
+  height: 160px;
+  border-radius: 150px;
 }
 
 .team-info {
