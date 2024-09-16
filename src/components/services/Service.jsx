@@ -64,7 +64,7 @@ const Service = () => {
             <img src={Combo} alt="" />
           </div>
           <h3 className="item-name">Combo</h3>
-          <h4 className="item-desc">Trucks weighing from 4tons to 8tons.</h4>
+          <h4 className="item-desc">Trucks weighing from 4tons to 8tons. Can carry industrial tools and heavy weighted goods</h4>
           <div className="item-cta">
             <a href="https://play.google.com/store/apps/details?id=com.bakkiego.customer&pcampaignid=web_share">Order Now</a>
           </div>
