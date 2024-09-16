@@ -31,3 +31,19 @@
     margin-top: 2rem;
     text-align: center;
 }
+
+@media (max-width: 768px) {
+    .guide-header{
+        margin-left: 0px;
+    }
+
+    .steps-container{
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .step{
+        width: 20rem;
+        height: 12rem;
+    }
+}
