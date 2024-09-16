@@ -84,16 +84,15 @@ textarea {
 }
 
 @media (max-width: 600px) {
-  .contact__option {
-    background: var(--primary-color);
-    margin-left: -5px;
+  form{
+    margin-left: -8rem;
   }
-
-  .contact-container {
-    width: 70%;
+  .contact__option {
+    display: none;
   }
 
   textarea {
+    width: 300px;
     height: 200px;
   }
 }
