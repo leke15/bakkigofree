@@ -4,7 +4,7 @@ import hand from "../../assets/get_app_img.png";
 import "./download.css";
 const DownloadApp = () => {
   return (
-    <section id="cta">
+    <section className="mobile-download-container">
       {/* graphic background */}
       <div className="download-background">
         <img src={driver} alt="bakkie driver" className="background-graphic" />
