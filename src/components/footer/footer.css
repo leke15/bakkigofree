@@ -44,6 +44,7 @@ a:hover {
 }
 
 @media (max-width: 600px) {
+
   .logo-img {
     margin-left: 150px;
     height: 100px;

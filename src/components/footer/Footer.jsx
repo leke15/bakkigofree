@@ -6,6 +6,7 @@ import {
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { HashLink as Link } from "react-router-hash-link";
 import "./footer.css";
 
 const Footer = () => {
@@ -22,16 +23,15 @@ const Footer = () => {
               <a href="#home">Bakkiego</a>
             </li>
             <li>
-              <a href="#contact">Contact</a>
+            <Link smooth to="/About">About</Link>
             </li>
             <li>
-              <a href="#service">Services</a>
+            <Link smooth to="/About">Services</Link>
             </li>
             <li>
-              <a href="#business">Business</a>
-            </li>
-            <li>
-              <a href="#cta">Download the app</a>
+            <a href="/#contact">
+            Contact
+          </a>
             </li>
           </div>
         </ul>
