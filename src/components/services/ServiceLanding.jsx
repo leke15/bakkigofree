@@ -6,7 +6,7 @@ import { faPeopleGroup, faTruckFast } from '@fortawesome/free-solid-svg-icons'
 
 function ServiceLanding() {
   return (
-    <section>
+    <section className='service-landing-mobile'>
         <div className='service-landing-container'>
             <div id="title"><h3>Our Services</h3></div>
             <div className='service-container service1'>

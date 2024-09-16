@@ -118,11 +118,16 @@
   .features-container {
     display: block;
     grid-template-columns: repeat(2, 1fr);
-    margin-left: 22px;
+    margin-left: 35px;
+  }
+
+  .feat-topic{
+    margin-left: 80px;
   }
 
   .feature-item {
-    height: 400px;
-    margin-bottom: 10px;
+    width: 300px;
+    height: 350px;
+    margin-bottom: 20px;
   }
 }
