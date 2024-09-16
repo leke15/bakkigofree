@@ -9,7 +9,7 @@ import {
 
 function Features() {
   return (
-    <div>
+    <div className='mobile-section-container'>
     <div className='section-topic'><h3 >Why Bakkiego?</h3></div>
     <div className="features-container">
         {/* App feature 1 */}

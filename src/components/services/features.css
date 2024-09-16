@@ -50,3 +50,14 @@ body{
     font-size: 18px;
     text-align: center;
   } 
+
+
+  @media (max-width: 768px) {
+    .section-topic{
+      margin-left: 0px;
+    }
+
+    .mobile-section-container{
+      margin-top: -150px;
+    }
+  }
