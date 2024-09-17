@@ -39,6 +39,7 @@
 
     .steps-container{
         flex-direction: column;
+        margin-left: -60px;
         gap: 3rem;
     }
 

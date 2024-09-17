@@ -122,7 +122,7 @@
   .services-container {
     display: block;
     grid-template-columns: repeat(2, 1fr);
-    margin-left: 50px;
+    margin-left: 20px;
   }
 
   .service-item {
@@ -140,10 +140,6 @@
   .item-name{
     padding: 20px;
     margin-top: 130px;
-  }
-
-  .item-desc{
-    
   }
 
   .features-container {

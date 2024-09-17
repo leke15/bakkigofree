@@ -26,9 +26,9 @@ const Drive = () => {
   return (
     <section id="partner">
       <div className="partner_title">
-        <h3>
+        <h1>
            Become A Partner
-        </h3>
+        </h1>
       </div>
 
       <div className="partner_benefits">
@@ -66,7 +66,7 @@ const Drive = () => {
           </div>
         </div>
 
-        <form ref={form} onSubmit={sendEmail}>
+        <form ref={form} onSubmit={sendEmail} className="partner-mobile-form">
           <input
             type="text"
             name="name"

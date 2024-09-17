@@ -6,6 +6,7 @@
 .partner_title{
     margin-left: 33rem;
     padding: 20px;
+    font-size: 40px;
 }
 
 .partner_benefits{
@@ -37,3 +38,37 @@
     width: 30rem;
 }
 
+
+@media (max-width: 768px) {
+    .partner_title{
+        margin-left: 0px;
+        padding: 5px;
+        font-size: 30px;
+    }
+
+    .partner_text{
+        font-size: 20px;
+        margin-left: 4px;
+    }
+
+    .partner_benefits{
+        width: 400px;
+        gap: 10rem;
+    }
+
+    .partner_perk{
+        margin-left: 10px;
+    }
+
+    .perk-desc{
+        font-size: 20px;
+    }
+
+    .partner-mobile-form > input{
+        width: 200px;
+    }
+
+    .partner-mobile-form > textarea{
+        width: 200px;
+    }
+}
