@@ -7,7 +7,7 @@ import "./about.css";
 const About = () => {
   return (
     <section id="about">
-      <Navbar />
+      <Navbar className="mobile-about-nav"/>
       <h1 className="about-heading"> Let me introduce you to an <b>IDEA...</b></h1>
       <div className="about-container">
         <div className="about-desc">

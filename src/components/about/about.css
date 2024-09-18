@@ -54,3 +54,31 @@ section#about {
   margin-left: 20px; /* Add margin to space out the text from the image */
   text-align: left;
 }
+
+@media (max-width: 375px) {
+
+  .team-heading{
+    margin-top: 52rem;
+    margin-left: 10px;
+    font-size: 40px;
+  }
+
+  .team-container{
+    flex-direction: column;
+  }
+
+  .team-member{
+    flex-direction: column;
+    margin-top: 40px;
+  }
+
+  .team-img2{
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 425px) {
+  .team-heading{
+    margin-top: 42rem;
+  }
+}
