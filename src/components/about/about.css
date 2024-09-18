@@ -55,7 +55,7 @@ section#about {
   text-align: left;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 412px) {
 
   .team-heading{
     margin-top: 52rem;
@@ -79,6 +79,6 @@ section#about {
 
 @media (max-width: 425px) {
   .team-heading{
-    margin-top: 42rem;
+    margin-top: 48rem;
   }
 }
