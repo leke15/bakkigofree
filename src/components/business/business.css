@@ -68,3 +68,25 @@
     background: black;
     color: var(--primary-color);
   }
+
+  @media (max-width: 480px) {
+    .textbanner{
+      height: 550px;
+    }
+    .imgbanner{
+      display: none;
+    }
+
+    .desc_text{
+      margin-top: 10rem;
+    }
+
+    #route_icon{
+      margin-top: -10px;
+      margin-left: 15rem;
+    }
+
+    .cta-01{
+      margin-left: 7rem;
+    }
+  }
