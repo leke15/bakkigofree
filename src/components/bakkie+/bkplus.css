@@ -31,3 +31,13 @@ body{
     font-size: 25px;
     margin-bottom: 10px;
 }
+
+@media (max-width: 480px) {
+    .bkplus-graphic{
+        display: none;
+    }
+
+    .overlay{
+        display: none;
+    }
+}
