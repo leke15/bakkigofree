@@ -20,7 +20,7 @@ const Footer = () => {
         <ul>
           <div className="links">
             <li>
-              <a href="#home">Bakkiego</a>
+              <a href="/#home">Bakkiego</a>
             </li>
             <li>
             <Link smooth to="/About">About</Link>
@@ -41,7 +41,7 @@ const Footer = () => {
         <a href="https://www.facebook.com/Bakkiegoapp">
           <FontAwesomeIcon icon={faFacebook} className="social-icon" />
         </a>
-        <a href="https://api.whatsapp.com/send?phone=27621685478">
+        <a href="https://wa.me/27696680474">
           <FontAwesomeIcon icon={faWhatsapp} className="social-icon" />
         </a>
         <a href="https://www.youtube.com/@BakkieGo">
