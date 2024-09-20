@@ -1,55 +1,81 @@
-#earnings_topic{
-    margin-left: 30rem;
+.earnings_topic{
+    margin-left: 40rem;
     font-size: 70px;
 }
 
-#requirment_topic{
-    margin-left: 25rem;
+.requirment_topic{
+    margin-left: 35rem;
     font-size: 70px;
 }
 
-#earnings_perks_container{
+.earnings_perks_container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin-left: -8rem;
+    margin-left: 10px;
+    margin-right: 10px;
     margin-top: 30px;
     gap: 2.5rem;
 }
 
-#earning_perk_icon{
+.earning_perk_icon{
     font-size: 70px;
     text-align: center;
     color: var(--primary-color);
 }
 
-#earnings_perk_01{
+.earnings_perk_01{
     background-color: black;
     padding: 20px;
     border-radius: 10px;
 }
 
-#earnings_perk_02{
+.earnings_perk_02{
     background-color: black;
     padding: 20px;
     border-radius: 10px;
 }
 
-#earnings_perk_03{
+.earnings_perk_03{
     background-color: black;
     padding: 20px;
     border-radius: 10px;
 }
 
-#perk_desc{
+.perk_desc{
     color: var(--primary-color)
 }
 
-#requirement_sys_icon{
+.requirement_sys_icon{
     font-size: 70px;
     margin-left: 150px;
     margin-top: 170px;
 }
 
-#requirements_container{
+.requirements_container{
     margin-left: -30px;
+}
+
+@media (max-width: 480px) {
+    .earnings_topic{
+        margin-left: 50px;
+    }
+
+    .earnings_perks_container{
+        grid-template-columns: 1fr;
+        margin-bottom: 20px;
+    }
+
+    .requirment_topic{
+        margin-left:20px;
+        font-size: 50px;
+    }
+
+    .requirement_sys_icon{
+        display: none;
+    }
+
+    .features-container{
+        margin-top: 100px;
+        margin-left: 60px;
+    }
 }

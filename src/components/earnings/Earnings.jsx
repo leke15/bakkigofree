@@ -13,39 +13,40 @@ import {
 const Earnings = () => {
   return (
     <section id="earn">
-      <h1 id="earnings_topic">Earnings</h1>
-      <div id="earnings_perks_container">
-        <article id="earnings_perk_01">
-          <div id="earning_perk_icon">
+      <h1 className="earnings_topic">Earnings</h1>
+      <div className="earnings_perks_container">
+        
+        <article className="earnings_perk_01">
+          <div className="earning_perk_icon">
             <FontAwesomeIcon icon={faHandHoldingDollar} />
           </div>
-          <div id="perk_desc">
+          <div className="perk_desc">
             We have an amazing commission rate of 15% on every ride made.
           </div>
         </article>
 
-        <article id="earnings_perk_02">
-          <div id="earning_perk_icon">
+        <article className="earnings_perk_02">
+          <div className="earning_perk_icon">
             <FontAwesomeIcon icon={faMoneyBillTransfer} />
           </div>
-          <div id="perk_desc">
+          <div className="perk_desc">
             With cash, you get paid immediately after you complete a trip. The
             app will show the amount to collect from your customer and calculate
             the fees that you owe to Bakkiego
           </div>
         </article>
 
-        <article id="earnings_perk_03">
-          <div id="earning_perk_icon">
+        <article className="earnings_perk_03">
+          <div className="earning_perk_icon">
             <FontAwesomeIcon icon={faPiggyBank} />
           </div>
-          <div id="perk_desc">
+          <div className="perk_desc">
             It’s easy to get paid. All you need is a bank account. Your earnings
             are deposited every week
           </div>
         </article>
       </div>
-      <h3 id="requirment_topic">Requirements</h3>
+      <h3 className="requirment_topic">Requirements</h3>
       <div id="requirements_container" className="features-container">
 
         <div id="requirment_01" className="feature-item">
@@ -61,7 +62,7 @@ const Earnings = () => {
           </div>
         </div>
 
-        <FontAwesomeIcon icon={faArrowRightArrowLeft} id="requirement_sys_icon"/>
+        <FontAwesomeIcon icon={faArrowRightArrowLeft} className="requirement_sys_icon"/>
 
         <div id="requirment_02" className="feature-item"> 
           <div id="reqirmemt_icon" className="feat-icon">
