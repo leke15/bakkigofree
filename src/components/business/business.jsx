@@ -27,7 +27,7 @@ const business = () => {
             looking for your services.
           </p>
           <div className="cta-01">
-            <a href="#verification" className="cta_01_btn">
+            <a href="https://play.google.com/store/apps/details?id=com.bakkiego.driver" className="cta_01_btn">
               Drive
             </a>
           </div>
