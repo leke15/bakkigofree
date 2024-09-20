@@ -10,7 +10,7 @@ import {
 function Features() {
   return (
     <div className='mobile-section-container'>
-    <div className='section-topic'><h3 >Why Bakkiego?</h3></div>
+    <div ><h3 className='question-topic'>Why Bakkiego?</h3></div>
     <div className="features-container">
         {/* App feature 1 */}
         <article className="feature-item">

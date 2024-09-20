@@ -10,7 +10,7 @@ body{
     border-radius: 10px;
   }
   
-.section-topic{
+.question-topic{
     margin-bottom: 100px;
     margin-left: 35rem;
     padding: 20px;
@@ -53,9 +53,10 @@ body{
 
 
   @media (max-width: 768px) {
-    .section-topic{
+    .question-topic{
+      margin-top: -200px;
       margin-left: 0px;
-      font-size: 20px;
+      font-size: 50px;
     }
 
     .mobile-section-container{
