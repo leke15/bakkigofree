@@ -51,7 +51,7 @@ section#about {
 }
 
 .team-info {
-  margin-left: 20px; /* Add margin to space out the text from the image */
+  margin-left: 20px;
   text-align: left;
 }
 
@@ -77,8 +77,21 @@ section#about {
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 435px) {
   .team-heading{
-    margin-top: 48rem;
+    margin-top: 40rem;
+  }
+
+  .team-container{
+    flex-direction: column;
+  }
+
+  .team-member{
+    flex-direction: column;
+    margin-top: 40px;
+  }
+
+  .team-img2{
+    margin-left: 10px;
   }
 }
