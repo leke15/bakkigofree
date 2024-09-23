@@ -79,19 +79,6 @@ section#about {
 
 @media (max-width: 435px) {
   .team-heading{
-    margin-top: 40rem;
-  }
-
-  .team-container{
-    flex-direction: column;
-  }
-
-  .team-member{
-    flex-direction: column;
-    margin-top: 40px;
-  }
-
-  .team-img2{
-    margin-left: 10px;
+    margin-top: 48rem;
   }
 }
