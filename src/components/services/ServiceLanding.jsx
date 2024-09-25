@@ -8,7 +8,7 @@ function ServiceLanding() {
   return (
     <section className='service-landing-mobile'>
         <div className='service-landing-container'>
-            <div id="title"><h3>Our Services</h3></div>
+            <div className="title"><h3>Our Services</h3></div>
             <div className='service-container service1'>
             <FontAwesomeIcon icon={faTruckFast} className='service-icon'/> <br/>
             <button className='btn service-btn' > <Link smooth to="/Service"> Request a bakkie</Link></button>
