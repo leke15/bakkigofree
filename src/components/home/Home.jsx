@@ -1,4 +1,5 @@
 import Features from "../services/Features";
+import { Helmet } from 'react-helmet';
 import DownloadApp from "../../components/downloadApp/DownloadApp";
 import Contact from "../../components/contact/Contact";
 import Footer from "../../components/footer/Footer";
@@ -9,7 +10,9 @@ import "./home.css";
 const Home = () => {
   return (
     <section className="container">
-      <meta property="Bakkiego" content="An app making moving with bakkies easier"></meta>
+            <Helmet>
+                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            </Helmet>
       <Navbar />
       <div className="landing-container">
         <div>

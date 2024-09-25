@@ -45,6 +45,10 @@ a:hover {
 
 @media (max-width: 600px) {
 
+  section#footer{
+    width: 49vh;
+  }
+
   .logo-img {
     margin-left: 150px;
     height: 100px;
