@@ -26,7 +26,7 @@ const About = () => {
           </p>
         </div>
       </div>
-      <h3 className="team-heading">Our Team</h3>
+      <h1 className="team-heading">Our Team</h1>
       <div className="team-container">
         <div className="team-member">
           <img src={ceo} alt="David Ayomidotun" className="team-img" />
