@@ -58,7 +58,7 @@ section#about {
 @media (max-width: 412px) {
 
   .team-heading{
-    margin-top: 52rem;
+    margin-top: -200rem;
     margin-left: 10px;
     font-size: 40px;
   }
