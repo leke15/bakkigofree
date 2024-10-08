@@ -78,8 +78,9 @@
 
 @media (max-width: 768px) {
     .service-landing-mobile {
-        width: 45vh;
+        width: 40vh;
         height: 80vh;
+        margin-left: 0px;
     }
 
     .service-landing-container::before {
@@ -90,13 +91,14 @@
         font-size: 40px;
         margin-left: 40px;
         margin-top: -12rem;
+        width: fit-content;
     }
 
     .service-landing-container {
         display: flex;
         flex-direction: column;
         margin-bottom: 0px;
-    }
+        }
 
     .service1 {
         margin-left: 40px;
