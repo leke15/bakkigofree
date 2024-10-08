@@ -31,8 +31,8 @@ margin-left: 5rem;
 
 
 @media (max-width: 768px) {
-  .container{
-    width: 49.5vh;
+.container{
+    width: 45vh;
     height: 60vh;
   }
   .landing-container{
