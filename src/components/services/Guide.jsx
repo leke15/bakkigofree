@@ -6,9 +6,9 @@ import { faChampagneGlasses, faDownload, faImage } from "@fortawesome/free-solid
 
 function Guide() {
   return (
-    <div>
+    <div className="guide-container">
       <div className="guide-header">
-        <h3>How it Works</h3>
+        <h1><b>How it Works</b></h1>
       </div>
 
       <div className="steps-container">

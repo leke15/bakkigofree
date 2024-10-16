@@ -1,10 +1,11 @@
 .guide-header{
-    padding: 20px;
-    margin-left: 37rem;
+    margin-top: 5px;
+    font-size: 25px;
+    margin-left: 40rem;
 }
 
 .steps-container{
-    margin-top: 5rem;
+    margin-top: 2rem;
     display: flex;
     align-items: center;
     gap: 10rem;
@@ -34,8 +35,16 @@
 
 @media (max-width: 768px) {
     .guide-header{
-        margin-left: 0px;
+        margin-left: 70px;
+        padding: 0px;
     }
+
+    .guide-header > h1{
+        margin-top: 2rem;
+        padding-top: 8rem;
+        margin-bottom: 4rem;
+    }
+
 
     .steps-container{
         flex-direction: column;
