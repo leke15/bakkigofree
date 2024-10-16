@@ -18,6 +18,7 @@
   max-width: 50%;
 }
 
+
 .service-graphic img{
   max-width: 30%;
   height: 200px;
@@ -33,11 +34,14 @@
 }
 
 .item-image {
-  width: 200px;
   height: 150px;
-  overflow: hidden;
   border-radius: 10px;
   margin: 0 auto;
+}
+
+.item-image >img{
+  width: 220px;
+  height: 150px;
 }
 
 .item-name,
@@ -66,8 +70,7 @@
 .item-name {
   color: var(--primary-color);
   font-size: 30px;
-  margin-top: 150px;
-  margin-left: 80px;
+  margin-left: 30px;
 }
 
 .item-desc {
@@ -123,23 +126,28 @@
     display: block;
     grid-template-columns: repeat(2, 1fr);
     margin-left: 20px;
+    margin-bottom: 50px;
   }
 
   .service-item {
     height: 350px;
     margin-bottom: 20px;
+    height: 410px;
   }
 
-  .item-name,
-.item-desc,
-.item-cta {
+  .item-name{
+  margin-left: 0px;
   margin-bottom: 0px;
+  padding: 20px;
 }
 
+  .item-desc{
+    margin-top: -10px;
+    margin-bottom: 0px;
+  }
 
-  .item-name{
-    padding: 20px;
-    margin-top: 130px;
+  .item-cta{
+    margin-top: 5px;
   }
 
   .features-container {

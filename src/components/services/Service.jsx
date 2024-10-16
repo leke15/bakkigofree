@@ -28,7 +28,7 @@ const Service = () => {
         {/* Service 1 */}
         <article className="service-item">
           <div className="item-image">
-            <img src={Smart1} alt="" />
+            <img src={Smart1} alt=""/>
           </div>
           <h3 className="item-name">Smart 1</h3>
           <p className="item-desc">Trucks weighing from 500kg to 1 tons. Best for household goods and deliveries</p>
@@ -39,7 +39,7 @@ const Service = () => {
         {/* Service 2  */}
         <article className="service-item">
           <div className="item-image">
-            <img src={Smart2} alt="" />
+            <img src={Smart2} alt=""/>
           </div>
           <h3 className="item-name">Smart 2</h3>
           <h4 className="item-desc">Trucks weighing from 1tons to 2 tons. Best for furnitures, and other Meduim weighted items</h4>
@@ -50,7 +50,7 @@ const Service = () => {
         {/*  service 3 */}
         <article className="service-item">
           <div className="item-image">
-            <img src={Leggo} alt="" />
+            <img src={Leggo} alt=""/>
           </div>
           <h3 className="item-name">Leggo</h3>
           <h4 className="item-desc">Trucks weighing from 2tons to 4tons. Can carry industrial tools and heavy weighted goods </h4>
@@ -61,7 +61,7 @@ const Service = () => {
         {/* service 4 */}
         <article className="service-item">
           <div className="item-image">
-            <img src={Combo} alt="" />
+            <img src={Combo} alt=""/>
           </div>
           <h3 className="item-name">Combo</h3>
           <h4 className="item-desc">Trucks weighing from 4tons to 8tons. Can carry industrial tools and heavy weighted goods</h4>
