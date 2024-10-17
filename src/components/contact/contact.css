@@ -84,6 +84,11 @@ textarea {
 }
 
 @media (max-width: 600px) {
+
+  .page-name{
+    font-size: 3rem;
+  }
+
   form{
     margin-left: -8rem;
   }
